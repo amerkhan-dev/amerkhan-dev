@@ -1,0 +1,46 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Amer Khan — Software &amp; AI Engineer">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .sans { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="260" fill="#0B0A09"/>
+
+  <!-- divider between identity block and trace panel -->
+  <line x1="680" y1="30" x2="680" y2="230" stroke="#2A2620" stroke-width="1" opacity="0.5"/>
+
+  <!-- left edge rule -->
+  <rect x="48" y="46" width="2" height="176" fill="#D4A03C"/>
+
+  <!-- identity block -->
+  <text x="76" y="70" class="mono" font-size="13" letter-spacing="4" fill="#D4A03C">SOFTWARE &amp; AI ENGINEER</text>
+  <text x="74" y="140" class="sans" font-size="58" font-weight="700" letter-spacing="-2" fill="#F0EADD">Amer Khan</text>
+  <text x="76" y="172" class="sans" font-size="18" fill="#A29A8E">I build AI agents that survive contact with real users.</text>
+  <text x="76" y="204" class="mono" font-size="12.5" letter-spacing="1" fill="#5C564A">UCONN CSE + MATH &#183; TWINLY CORE TEAM &#183; GREATER BOSTON</text>
+
+  <!-- routed trace: agent run, five nodes, orthogonal legs only -->
+  <g>
+    <!-- completed legs -->
+    <path d="M 720 210 H 860" stroke="#D4A03C" stroke-width="2" fill="none" opacity="0.75"/>
+    <path d="M 860 210 V 140" stroke="#D4A03C" stroke-width="2" fill="none" opacity="0.75"/>
+
+    <!-- pending legs -->
+    <path d="M 860 140 H 980" stroke="#2A2620" stroke-width="2" fill="none"/>
+    <path d="M 980 140 V 70" stroke="#2A2620" stroke-width="2" fill="none"/>
+
+    <!-- node A: start -->
+    <circle cx="720" cy="210" r="5" fill="#D4A03C" opacity="0.75"/>
+    <!-- node B: completed -->
+    <circle cx="860" cy="210" r="5" fill="#D4A03C" opacity="0.75"/>
+    <!-- node C: current position, in progress -->
+    <circle cx="860" cy="140" r="6.5" fill="#0B0A09" stroke="#D4A03C" stroke-width="2"/>
+    <!-- node D: pending -->
+    <circle cx="980" cy="140" r="4" fill="#0B0A09" stroke="#2A2620" stroke-width="1.5"/>
+    <!-- node E: pending -->
+    <circle cx="980" cy="70" r="4" fill="#0B0A09" stroke="#2A2620" stroke-width="1.5"/>
+  </g>
+
+  <text x="1160" y="238" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#5C564A">AGENT RUN &#8212; TRACED</text>
+</svg>
