@@ -174,7 +174,7 @@ No icon set covers this part of the stack:
 ### `$ ./snake.sh`
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/output/dist/github-snake-dark.svg" alt="Contribution snake" width="100%">
+<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/output/github-snake-dark.svg" alt="Contribution snake" width="100%">
 </div>
 
 <img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/divider.svg" width="100%" height="2" alt="">
