@@ -1,138 +1,125 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/banner.svg" width="100%" alt="Amer Khan — Software &amp; AI Engineer">
-
-<a href="https://amerkhan.vercel.app"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=900&color=D4A03C&center=true&vCenter=true&width=820&lines=%24%20whoami%20%E2%86%92%20Amer%20Khan%20%C2%B7%20CSE%20%2B%20Math%20%40%20UConn%202028;%24%20cat%20transcript.log%20%E2%86%92%203.94%20%2F%204.00%20%C2%B7%20near-perfect%20GPA;%24%20ls%20.%2Fprojects%20%E2%86%92%20Belay%20%C2%B7%20Tend%20%C2%B7%20TwinTrack%20%C2%B7%20EV%20Sim;%24%20grep%20-r%20%22what%20i%20build%22%20%E2%86%92%20AI%20agents%2C%20full-stack%2C%20infra;%24%20open%20--internships%20summer-2027" alt="Typing summary"></a>
-
-<p>
-<a href="https://amerkhan.vercel.app"><img src="https://img.shields.io/badge/Portfolio-14120F?style=flat-square&labelColor=0B0A09&logo=vercel&logoColor=D4A03C" alt="Portfolio"></a>
-<a href="https://linkedin.com/in/amer-khan-12a836358"><img src="https://img.shields.io/badge/LinkedIn-14120F?style=flat-square&labelColor=0B0A09&logo=linkedin&logoColor=D4A03C" alt="LinkedIn"></a>
-<a href="https://twinly.tech"><img src="https://img.shields.io/badge/Twinly-14120F?style=flat-square&labelColor=0B0A09&logo=rocket&logoColor=D4A03C" alt="Twinly"></a>
-<a href="mailto:amer.khan@uconn.edu"><img src="https://img.shields.io/badge/Email-14120F?style=flat-square&labelColor=0B0A09&logo=gmail&logoColor=D4A03C" alt="Email"></a>
-</p>
-
-<p>
-<img src="https://img.shields.io/github/followers/amerkhan-dev?style=flat-square&labelColor=0B0A09&color=14120F&logoColor=D4A03C&logo=github&label=FOLLOWERS" alt="Followers">
-<img src="https://img.shields.io/github/stars/amerkhan-dev/Tend?style=flat-square&labelColor=0B0A09&color=14120F&logoColor=D4A03C&logo=github&label=STARS%20%C2%B7%20TEND" alt="Stars on Tend">
-</p>
-
-</div>
-
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/divider.svg" width="100%" height="2" alt="">
-
-### `$ whoami`
-
-Software and AI engineer. I build agents that hold up outside a demo, and the systems underneath them — reliability, evals, and tool calling that don't fall over the first time a real user goes off-script.
-
-```ini
-SCHOOL    =  University of Connecticut — B.S.E. CSE + Math Minor, May 2028
-GPA       =  3.94 / 4.00
-BUILDING  =  Belay | Tend | TwinTrack
-OPEN_TO   =  Summer 2027 internships — AI/agents, full-stack, infra
-```
-
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/divider.svg" width="100%" height="2" alt="">
-
-### `$ ls ./projects --sort=impact`
-
-**[Belay](https://github.com/Frank-7/Belay)** — durable execution for AI agents that move money. Records an action's identity *before* the model decides, so a crash mid-payment resumes instead of double-charging.
-
-| | |
-| :-- | :-- |
-| **Stack** | Python · durable execution · crash recovery · evidence adjudication |
-| **Result** | Zero contract violations across 240 anchored-runtime trials |
-| **Links** | [repo](https://github.com/Frank-7/Belay) · [walkthrough](https://frank-7.github.io/Belay/) |
-
-**[Tend](https://github.com/amerkhan-dev/Tend)** — mental health app for students under heavy course loads. Habit tracking, adaptive check-ins, focus blocking, and Pip, an in-app agent that builds your schedule from plain conversation.
-
-| | |
-| :-- | :-- |
-| **Stack** | React · Node/Express REST APIs · DynamoDB on Elastic Beanstalk behind CloudFront |
-| **Scale** | 3-tier AWS build with auto-scaling and CDN caching, presented to Cigna executives |
-| **Result** | Best team in the entire Cigna NEXT Program cohort |
-| **Links** | [repo](https://github.com/amerkhan-dev/Tend) · [demo video](https://www.youtube.com/watch?v=VJnZe88TSVw) |
-
-**[TwinTrack](https://twintrack.twinly.tech)** — Twinly's internal platform, built end to end: task assignment, deadline tracking, and GitHub pull-request review in one place.
-
-| | |
-| :-- | :-- |
-| **Stack** | TypeScript · React · Node · GitHub API |
-| **Scale** | Routing work for 45+ engineering and growth contributors |
-| **Result** | In daily production use across Twinly's team |
-| **Links** | live at [twintrack.twinly.tech](https://twintrack.twinly.tech) |
-
-**Poker Equity & EV Simulator** — Monte Carlo hand-equity and expected-value analysis, written for a probability course and kept going after it.
-
-| | |
-| :-- | :-- |
-| **Stack** | Python · NumPy · Monte Carlo methods |
-| **Result** | Adopted into the UConn FinTech Club quant curriculum |
-
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/divider.svg" width="100%" height="2" alt="">
-
-### `$ cat stack.toml`
-
-**Languages**
-<br>
-<img src="https://skillicons.dev/icons?i=python,ts,js,c,cpp,java&theme=dark" alt="Python, TypeScript, JavaScript, C, C++, Java">
-
-**Frontend**
-<br>
-<img src="https://skillicons.dev/icons?i=react,vite,html,css&theme=dark" alt="React, Vite, HTML, CSS">
-
-**Backend & data**
-<br>
-<img src="https://skillicons.dev/icons?i=nodejs,express,sqlite,postgres&theme=dark" alt="Node.js, Express, SQLite, Postgres">
-
-**Cloud & tools**
-<br>
-<img src="https://skillicons.dev/icons?i=aws,linux,git,github&theme=dark" alt="AWS, Linux, Git, GitHub">
-
-No icon set covers this part of the stack:
-
-| capability | capability |
-| :-- | :-- |
-| AI agents | Tool calling |
-| LLM integration | Agent evaluation |
-| Prompt engineering | Monte Carlo methods |
-| Durable execution | Regression testing |
-
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/divider.svg" width="100%" height="2" alt="">
-
-### `$ git stats --global`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=amerkhan-dev&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0B0A09&text_color=A29A8E&icon_color=D4A03C&title_color=D4A03C&ring_color=D4A03C" alt="GitHub stats" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amerkhan-dev&layout=compact&langs_count=6&hide_border=true&bg_color=0B0A09&text_color=A29A8E&title_color=D4A03C" alt="Top languages" height="165">
-
-<img src="https://streak-stats.demolab.com?user=amerkhan-dev&hide_border=true&background=0B0A09&stroke=2A2620&ring=D4A03C&fire=E8C87A&currStreakLabel=D4A03C&sideLabels=A29A8E&dates=A29A8E&currStreakNum=D4A03C&sideNums=D4A03C" alt="GitHub streak">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=amerkhan-dev&bg_color=0B0A09&color=A29A8E&line=D4A03C&point=E8C87A&area=true&area_color=14120F&hide_border=true" alt="Contribution activity" width="100%">
-
-</div>
-
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/divider.svg" width="100%" height="2" alt="">
-
-### `$ ./snake.sh`
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/output/github-snake-dark.svg" alt="Contribution snake" width="100%">
-</div>
-
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/divider.svg" width="100%" height="2" alt="">
-
-### `$ ping me`
-
-<div align="center">
+<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/banner.svg" width="100%" alt="Amer Khan — Software & AI Engineer">
 
 <a href="https://amerkhan.vercel.app"><img src="https://img.shields.io/badge/Portfolio-14120F?style=for-the-badge&labelColor=0B0A09&logo=vercel&logoColor=D4A03C" alt="Portfolio"></a>
-<a href="https://linkedin.com/in/amer-khan-12a836358"><img src="https://img.shields.io/badge/LinkedIn-14120F?style=for-the-badge&labelColor=0B0A09&logo=linkedin&logoColor=D4A03C" alt="LinkedIn"></a>
-<a href="https://twinly.tech"><img src="https://img.shields.io/badge/Twinly-14120F?style=for-the-badge&labelColor=0B0A09&logo=rocket&logoColor=D4A03C" alt="Twinly"></a>
+<a href="https://linkedin.com/in/amer-khan-12a836358"><img src="https://img.shields.io/badge/LinkedIn-14120F?style=for-the-badge&labelColor=0B0A09&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0Q0QTAzQyIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B" alt="LinkedIn"></a>
 <a href="mailto:amer.khan@uconn.edu"><img src="https://img.shields.io/badge/Email-14120F?style=for-the-badge&labelColor=0B0A09&logo=gmail&logoColor=D4A03C" alt="Email"></a>
 
-<sub>$ exit 0</sub>
+🟢 **Open to Summer 2027 internships** · AI/agents, full-stack, infra
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/output/github-snake.svg">
+  <img alt="Amer's GitHub contribution graph" src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/output/github-snake.svg" width="100%">
+</picture>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/divider.svg" width="100%" height="2" alt="">
+## 👋 About me
+
+Software & AI engineer studying CSE + Math at UConn. I build AI agents, software, and the systems beneath them, and I care most about the part that holds up when real users go off-script.
+
+- 🔭 **Right now:** building Belay, leading tech for the UConn FinTech Club, and teaching CSE 1010 labs
+- ⚡ **Off the keyboard:** poker, powerlifting (2× bodyweight bench), Rubik's cubes, soccer, MMA
+
+## 🚀 Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧗 [Belay](https://github.com/Frank-7/Belay)
+
+Crash recovery for AI agents that move money. Belay records an action's identity *before* the model decides, so a crash mid-payment resumes instead of double-charging.
+
+🏆 **0** contract violations in 240 crash trials
+
+`Python` `Durable execution` `Crash recovery`
+
+[Repo](https://github.com/Frank-7/Belay) · [Walkthrough](https://frank-7.github.io/Belay/) · [Findings](https://github.com/Frank-7/Belay/blob/main/FINDINGS.md)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌱 [Tend](https://github.com/amerkhan-dev/Tend)
+
+Mental health app for students, built with The Cigna Group. Habit tracking, adaptive check-ins, focus blocking, and Pip, an in-app AI agent.
+
+🏆 **Best team** in a Cigna NEXT cohort of 10+
+
+`React` `Node.js` `AWS Lambda` `DynamoDB`
+
+[Repo](https://github.com/amerkhan-dev/Tend) · [Demo video](https://www.youtube.com/watch?v=VJnZe88TSVw)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📋 [TwinTrack](https://twintrack.twinly.tech)
+
+Twinly's task platform for assignments, deadlines, and GitHub pull-request review, co-designed and shipped across 200+ commits.
+
+👥 Used daily by **45+** contributors
+
+`TypeScript` `React` `Node.js` `GitHub API`
+
+[Live site](https://twintrack.twinly.tech)
+
+</td>
+<td width="50%" valign="top">
+
+### ♠️ Poker EV Simulator
+
+Monte Carlo hand-equity and expected-value analysis. Built for a probability course, then kept going.
+
+📈 Now part of the **UConn FinTech Club** quant curriculum
+
+`Python` `NumPy` `Monte Carlo`
+
+</td>
+</tr>
+</table>
+
+## 💼 Experience
+
+| Role | Highlights | When |
+| :-- | :-- | :-- |
+| 🤖 **[Twinly](https://twinly.tech)**<br><sub>Software & AI Engineer, Core Team</sub> | Shipped 50+ production AI-agent use cases and took the product from 0 to 2,000+ followers | Summer&nbsp;2026 |
+| 🏥 **The Cigna Group**<br><sub>Software Engineer, NEXT Program</sub> | Led a 4-person team through a 12-week build and presented it to Cigna executives | Summer&nbsp;2026 |
+| 📈 **UConn FinTech Club**<br><sub>Chief Technology Officer</sub> | Run a $15K annual budget and teach the club's quant curriculum | 2025&nbsp;–&nbsp;now |
+| 🧑‍🏫 **UConn**<br><sub>Teaching Assistant, CSE 1010</sub> | Lead three lab sections for 300+ students learning Python | 2026&nbsp;–&nbsp;now |
+| 🌐 **UConn ITS**<br><sub>Network Engineering & Design Technician</sub> | Design cable and fiber routes for a campus network serving 20,000 students | 2026&nbsp;–&nbsp;now |
+| 🐍 **Firefly Coders**<br><sub>Python Instructor</sub> | Wrote 200+ lessons and taught 100+ students, ages 5 to 15 | Summer&nbsp;2024 |
+
+## 🛠️ Tech Stack
+
+<table>
+<tr>
+<td nowrap><b>💻&nbsp;Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=python,ts,js,swift,c,cpp,java&theme=dark" alt="Python, TypeScript, JavaScript, Swift, C, C++, Java"></td>
+</tr>
+<tr>
+<td nowrap><b>🎨&nbsp;Frontend</b></td>
+<td><img src="https://skillicons.dev/icons?i=react,vite,html,css&theme=dark" alt="React, Vite, HTML, CSS"></td>
+</tr>
+<tr>
+<td nowrap><b>⚙️&nbsp;Backend&nbsp;&&nbsp;Data</b></td>
+<td><img src="https://skillicons.dev/icons?i=nodejs,express,postgres,sqlite,dynamodb&theme=dark" alt="Node.js, Express, Postgres, SQLite, DynamoDB"></td>
+</tr>
+<tr>
+<td nowrap><b>☁️&nbsp;Cloud&nbsp;&&nbsp;DevOps</b></td>
+<td><img src="https://skillicons.dev/icons?i=aws,vercel,linux,git,github,githubactions&theme=dark" alt="AWS, Vercel, Linux, Git, GitHub, GitHub Actions"></td>
+</tr>
+<tr>
+<td nowrap><b>🤖&nbsp;AI&nbsp;&&nbsp;Agents</b></td>
+<td><img src="https://raw.githubusercontent.com/amerkhan-dev/amerkhan-dev/main/assets/ai-stack.svg" alt="Agent architecture, LLM integration, Tool calling, Agent evals, Prompt engineering, Voice cloning & TTS"></td>
+</tr>
+</table>
+
+## 🎓 Education
+
+**University of Connecticut** · B.S.E. Computer Science & Engineering, Math minor · *May 2028*
+<br>
+3.94 GPA · 🏆 Husky Academic Scholarship · 🤖 Anthropic Academy certified
